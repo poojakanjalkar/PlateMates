@@ -3,6 +3,7 @@ const db = sql("meals.db");
 
 const dummyMeals = [
   {
+    id: "1",
     title: "Juicy Cheese Burger",
     slug: "juicy-cheese-burger",
     image: "/images/burger.jpg",
@@ -25,6 +26,7 @@ const dummyMeals = [
     creator_email: "johndoe@example.com",
   },
   {
+    id: "2",
     title: "Spicy Curry",
     slug: "spicy-curry",
     image: "/images/curry.jpg",
@@ -50,6 +52,7 @@ const dummyMeals = [
     creator_email: "max@example.com",
   },
   {
+    id: "3",
     title: "Homemade Dumplings",
     slug: "homemade-dumplings",
     image: "/images/dumplings.jpg",
@@ -72,6 +75,7 @@ const dummyMeals = [
     creator_email: "emilychen@example.com",
   },
   {
+    id: "4",
     title: "Classic Mac n Cheese",
     slug: "classic-mac-n-cheese",
     image: "/images/macncheese.jpg",
@@ -97,6 +101,7 @@ const dummyMeals = [
     creator_email: "laurasmith@example.com",
   },
   {
+    id: "5",
     title: "Authentic Pizza",
     slug: "authentic-pizza",
     image: "/images/pizza.jpg",
@@ -119,6 +124,7 @@ const dummyMeals = [
     creator_email: "mariorossi@example.com",
   },
   {
+    id: "6",
     title: "Wiener Schnitzel",
     slug: "wiener-schnitzel",
     image: "/images/schnitzel.jpg",
@@ -141,6 +147,7 @@ const dummyMeals = [
     creator_email: "franzhuber@example.com",
   },
   {
+    id: "7",
     title: "Fresh Tomato Salad",
     slug: "fresh-tomato-salad",
     image: "/images/tomato-salad.jpg",
